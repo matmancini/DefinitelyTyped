@@ -78,7 +78,7 @@ interface TwitterWidgets {
      * @param target The element in which to render the widget.
      * @param options An object hash of additional options to configure the widget.
      */
-    createTimeline(widgetId: string, target: HTMLElement, options?: TwitterTimelineWidgetOptions): Promise<HTMLElement>;
+    createTimeline(widgetId: any, target: HTMLElement, options?: TwitterTimelineWidgetOptions): Promise<HTMLElement>;
     /**
      * Create an embedded Tweet for a Tweet.
      *
